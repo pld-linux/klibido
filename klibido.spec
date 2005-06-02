@@ -1,12 +1,12 @@
 Summary:	KLibido - KDE Linux Binaries Downloader
 Summary(pl):	KLibido - narzêdzie do ¶ci±gania binariów dla KDE
 Name:		klibido
-Version:	0.2.2.1
+Version:	0.2.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/klibido/%{name}-%{version}.tar.gz
-# Source0-md5:	f232b9d5da95819be43f1c02733383dd
+# Source0-md5:	adffc4df2df4f339794a49d5e06248b3
 URL:		http://klibido.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
