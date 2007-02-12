@@ -1,5 +1,5 @@
 Summary:	KLibido - KDE Linux Binaries Downloader
-Summary(pl):	KLibido - narzêdzie do ¶ci±gania binariów dla KDE
+Summary(pl.UTF-8):   KLibido - narzÄ™dzie do Å›ciÄ…gania binariÃ³w dla KDE
 Name:		klibido
 Version:	0.2.5
 Release:	1
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KLibido is a KDE usenet news grabber for Linux.
 
-%description -l pl
-KLibido jest narzêdziem do ¶ci±gania za³±czników binarnych z grup
+%description -l pl.UTF-8
+KLibido jest narzÄ™dziem do Å›ciÄ…gania zaÅ‚Ä…cznikÃ³w binarnych z grup
 dyskusyjnych napisanym dla KDE.
 
 %prep
