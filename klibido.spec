@@ -72,6 +72,6 @@ umask 022
 %files -f %{name}.lang
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%{_desktopdir}/kde/*
+%{_desktopdir}/kde/*.desktop
 %{_datadir}/apps/%{name}
 %{_iconsdir}/*/*/*/*
