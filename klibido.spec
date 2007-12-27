@@ -2,13 +2,14 @@ Summary:	KLibido - KDE Linux Binaries Downloader
 Summary(pl.UTF-8):	KLibido - narzędzie do ściągania binariów dla KDE
 Name:		klibido
 Version:	0.2.5
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/klibido/%{name}-%{version}.tar.gz
 # Source0-md5:	e343338541a3ff3f2983023ccc922af0
 Patch0:		%{name}-gcc4.patch
 Patch1:		kde-ac260.patch
+Patch2:		kde-am1.10.patch
 URL:		http://klibido.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -29,6 +30,7 @@ dyskusyjnych napisanym dla KDE.
 %setup -q
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
 
 %build
 cp -f /usr/share/automake/config.sub admin
